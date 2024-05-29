@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+.parent-header {
+  display: flex;
+  justify-content: space-between;
+}
+.parent-right {
+  display: flex;
+  justify-content: ;
+  align-items: center;
+}
+header {
+  background-color: #ffffff;
+  border-bottom: 2px solid red;
+  padding: 15px;
+  gap: 20px;
+}
+h3 {
+  font-weight: 700px;
+}
+/* Form styles */
+.form-wrapper {
+  padding: 40px;
+  margin: 50px auto;
+  margin-top: 50px;
+  width: 650px;
+  height: 756px;
+
+  border-radius: 50px;
+  border: 1px solid gray;
+}
+.form-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-text {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.form-text h3 {
+  width: 208px;
+  height: 29px;
+  padding-left: 60px;
+}
+.m {
+  width: 208px;
+  height: 29px;
+  color: #f0400f;
+}
+.n {
+  width: 27px;
+  height: 23px;
+}
+.title {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 35px;
+  color: #0e0d5d;
+  text-transform: uppercase;
+}
+
+.form-ota {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.oquvchi button {
+  cursor: pointer;
+  width: 255px;
+  padding: 10px 0;
+  border: none;
+  font-size: 28px;
+  border-radius: 10px;
+}
+
+.otaona button {
+  cursor: pointer;
+  width: 255px;
+  padding: 10px 0;
+  border: none;
+  background-color: transparent;
+  font-size: 28px;
+}
+
+.form-tel {
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 30px;
+  margin-top: 20px;
+  width: 100%;
+  padding: 20px;
+}
+form-tel::placeholder {
+  font-size: 24px;
+}
+.qr-code {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 28px;
+}
+.button-finish {
+  display: flex;
+  justify-content: end;
+  padding-top: 40px;
+}
+.button-finish button {
+  background-color: #f0400f;
+  color: white;
+  width: 202px;
+  padding: 20px 0;
+  border: none;
+  border-radius: 20px;
+  font-size: 24px;
+}
